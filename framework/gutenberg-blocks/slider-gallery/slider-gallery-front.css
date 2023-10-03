@@ -1,0 +1,40 @@
+/*
+ *Gutenberg Gallery Slider
+ */
+.bc-slider {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	cursor: grab;
+}
+
+.bc-slider__content {
+	display: flex; 
+	transition: transform 0.3s ease; 
+}
+
+.bc-slider img {
+	width: 100%;
+	height: auto;
+}
+
+/* Pager styles */
+.bc-slider__pager {
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.bc-slider__pager button {
+	background: #030303;
+	color: #fff;
+	border: none;
+	padding: 5px 10px;
+	margin: 0 5px;
+	cursor: pointer;
+}
+
+.bc-slider__pager button.active {
+	background: #333333;
+}

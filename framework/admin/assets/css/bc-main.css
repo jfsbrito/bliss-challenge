@@ -1,0 +1,161 @@
+/*CPT Event */
+/* Style for the Event Information metabox */
+#event_information {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+#event_information label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#event_information input[type="date"],
+#event_information input[type="time"],
+#event_information input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Responsive Styles */
+@media (max-width: 480px) {
+    #event_information {
+        padding: 10px;
+    }
+    
+    #event_information input[type="date"],
+    #event_information input[type="time"],
+    #event_information input[type="text"] {
+        padding: 8px;
+        margin-bottom: 8px;
+    }
+}
+
+/* Style for the SEO meta box */
+#seo_metabox {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+#seo_metabox h3 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#seo_metabox input[type="text"],
+#seo_metabox textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+#seo_metabox button.button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#seo_metabox #image_preview img {
+    max-width: 300px;
+}
+
+#seo_metabox .warning {
+    color: red;
+    font-weight: bold;
+}
+
+/* Style for the term SEO fields */
+.form-field.term-meta-text-wrap {
+    margin-bottom: 20px;
+}
+
+.form-field.term-meta-text-wrap label {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.term-meta-text-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+
+#term_image_preview img {
+    max-width: 100px;
+}
+
+.term-meta-text-block {
+    display: block;
+    word-wrap: break-word;
+    max-width: 100px;
+}
+/* Custom columns for SEO data in term lists */
+.column-term_seo_title,
+.column-term_seo_description,
+.column-term_seo_image {
+    width: 20%;
+    text-align: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 480px) {
+    #seo_metabox {
+        padding: 10px;
+    }
+    
+    #seo_metabox h3 {
+        font-size: 16px;
+    }
+    
+    #seo_metabox input[type="text"],
+    #seo_metabox textarea {
+        padding: 8px;
+        margin-bottom: 8px;
+    }
+    
+    #seo_metabox button.button {
+        padding: 8px 16px;
+    }
+    
+    #seo_metabox #image_preview img {
+        max-width: 200px;
+    }
+    
+    #seo_metabox .warning {
+        font-size: 12px;
+    }
+    
+    .form-field.term-meta-text-wrap label {
+        font-size: 14px;
+    }
+    
+    .term-meta-text-field {
+        padding: 8px;
+        margin-top: 3px;
+    }
+    
+    #term_image_preview img {
+        max-width: 80px;
+    }
+    
+    .term-meta-text-block {
+        font-size: 12px;
+        max-width: 80px;
+    }
+}
+

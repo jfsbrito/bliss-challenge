@@ -24,57 +24,51 @@ Theme Structure
 The theme directory structure is organized as follows:
 
 bliss-challenge/
-│
-├── assets/
-│   ├── images/
-│   ├── js/
-│   │   └── main.js
-│
-├── framework/
-│   ├── admin/
-│   ├── cpt/
-│   │   └── events.php
-│   ├── gutenberg-blocks/
-│   │   ├── slider-gallery/
-│   │   │   ├── slider-gallery.php
-│   │   │   ├── slider-gallery-editor.css
-│   │   │   ├── slider-gallery-editor.js
-│   │   │   ├── slider-gallery-front.css
-│   │   │   └── slider-gallery-front.js
-│   ├── modules/
-│   │   ├── head/
-│   │   │   ├── head.php
-│   │   │   └── module.php
-│   │   └── optimize/
-│   │       └── disable-futures.php
-│
-├── pages-templates/
-│   └── front-page.php
-│
-├── template-parts/
-│   ├── events/
-│   │   ├── content-loop.php
-│   │   └── content-single.php
-│   ├── posts/
-│   │   ├── content-loop.php
-│   │   └── content-single.php
-│   └── general/
-│       ├── footer-content.php
-│       └── header-content.php
-│
-├── 404.php
-├── archive.php
-├── footer.php
-├── front-page.php
-├── functions.php
-├── header.php
-├── home.php
-├── index.php
-├── screenshot.png
-├── search.php
-├── single.php
-├── style.css
-
+-   `assets/`
+    -   `images/`
+    -   `js/`
+        -   `main.js`
+-   `framework/`
+    -   `admin/`
+    -   `cpt/`
+        -   `events.php`
+    -   `gutenberg-blocks/`
+        -   `slider-gallery/`
+            -   `slider-gallery.php`
+            -   `slider-gallery-editor.css`
+            -   `slider-gallery-editor.js`
+            -   `slider-gallery-front.css`
+            -   `slider-gallery-front.js`
+    -   `modules/`
+        -   `head/`
+            -   `head.php`
+            -   `module.php`
+        -   `optimize/`
+            -   `disable-futures.php`
+-   `pages-templates/`
+    -   `front-page.php`
+-   `template-parts/`
+    -   `events/`
+        -   `content-loop.php`
+        -   `content-single.php`
+    -   `posts/`
+        -   `content-loop.php`
+        -   `content-single.php`
+    -   `general/`
+        -   `footer-content.php`
+        -   `header-content.php`
+-   `404.php`	
+-   `archive.php`	
+-   `footer.php`	
+-   `front-page.php`	
+-   `functions.php`	
+-   `header.php`	
+-   `home.php`	
+-   `index.php`	
+-   `screenshot.png	`
+-   `search.php	`
+-   `single.php	`
+-   `style.css`
 
 Installation
 Download WordPress from the official website: https://wordpress.org/download/.
